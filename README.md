@@ -1,10 +1,6 @@
 # Portafolio Personal
 
-¡Bienvenido a mi portafolio personal en línea! Este proyecto es una colección de mi trabajo, experiencias y logros profesionales. Está diseñado para mostrar quién soy y qué puedo hacer en el mundo de la [ programacion y electronica digital ].
-
-## Acerca de
-
-Este portafolio web contiene información detallada sobre mis proyectos, habilidades y experiencias relevantes. Puedes explorar mis trabajos pasados, aprender más sobre mi formación y experiencia, y ponerse en contacto conmigo si estás interesado en colaborar o conocer más detalles.
+¡Bienvenido a mi repositorio personal en línea! Este proyecto es una colección de portafolios web .
 
 ## Licencia
 
@@ -22,7 +18,7 @@ Si deseas utilizar este proyecto como base para tu propio portafolio o aprender 
 
 1. Clona este repositorio en tu máquina local usando el siguiente comando:
 
-   git clone https://github.com/Hechiso/tuprojecto.git
+   git clone https://github.com/Hechiso/Portafolio.git
 
 
 2. Personaliza el contenido de acuerdo a tus necesidades, actualizando los archivos HTML, CSS y JavaScript según sea necesario.
@@ -37,9 +33,8 @@ Si deseas utilizar este proyecto como base para tu propio portafolio o aprender 
 
 Si tienes preguntas, comentarios o deseas colaborar en proyectos, no dudes en [contactarme](NigromanteOficial@outlook.com).
 
-¡Espero que encuentres este portafolio útil e inspirador!
+¡Espero que encuentres este repositorio útil e inspirador!
 
----
 
 **Nota:** Este proyecto es una obra en constante evolución. Siempre estoy buscando formas de mejorarlo y añadir más contenido relevante. ¡Vuelve pronto para ver las últimas actualizaciones!
 
