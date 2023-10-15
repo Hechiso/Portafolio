@@ -15,6 +15,8 @@ header h1 {
     font-size: 36px;
 }
 
+
+/*--------------------------------------------------------------------------------
 header nav ul {	
     list-style: none;
 }
@@ -33,6 +35,8 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+----------------------------------------------------------------------------------*/
 
 /* Estilo de las secciones */
 section {
@@ -72,7 +76,42 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilos responsivos */
+
+
+
+/*----------------------------------------------- [ nav ] personalizado ----------------------------------------------*/
+
+nav {
+  
+  background-color: #223;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+
+}
+
+nav ul li {
+  display: inline; /* Muestra los elementos de la lista en línea */
+}
+
+nav a {
+  text-decoration: none;
+  color: #999;
+  padding: 8px 16px;
+  display: inline;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #000; 
+  text-decoration: none;
+}
+
+/*-------------------------------------------------- Estilos responsivos -----------------------------------------------------------*/
 @media (max-width: 768px) {
     header {
         padding: 10px;
@@ -96,4 +135,3 @@ a:hover {
         margin-bottom: 15px;
     }
 }
-
