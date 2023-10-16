@@ -20,7 +20,6 @@ Si deseas utilizar este proyecto como base para tu propio portafolio o aprender 
 
    git clone https://github.com/Hechiso/Portafolio.git
 
-
 2. Personaliza el contenido de acuerdo a tus necesidades, actualizando los archivos HTML, CSS y JavaScript según sea necesario.
 
 3. Puedes modificar el diseño y los estilos en la carpeta `css` y las interacciones en la carpeta `js`.

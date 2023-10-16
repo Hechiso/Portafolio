@@ -111,6 +111,14 @@ nav a:hover {
   text-decoration: none;
 }
 
+/*-------------------------------------------------- estilos de imagen -------------------------------------------------------------*/
+
+img {
+ float: right;
+  border-radius: 50%; /* Bordes redondeados */
+  box-shadow: 3px 3px 3px #999; /* Sombra de la imagen */
+}
+
 /*-------------------------------------------------- Estilos responsivos -----------------------------------------------------------*/
 @media (max-width: 768px) {
     header {
