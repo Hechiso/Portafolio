@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reproductor de Música</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css"> 
+</head>
+<body>
+ 
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<div class="cuerpo">
+    <div class="lista">
+       
+        <h2>Listas Pp</h2>   
+
+
+        <ul  id="playlist">
+        <li data-src="ListaPP/naofumi.mp3" data-img="Portadas/portadaNao.jpg">naofumi</li>
+        <li data-src="ListaPP/robot.mp3" data-img="Portadas/robot.jpeg">robot</li>
+        <li data-src="ListaPP/Alien-hatsune.mp3" data-img="Portadas/alien.jpg">Alien alien</li>
+        <li data-src="ListaPP/CometaHoneymoon.mp3" data-img="Portadas/comenta.jpg">Cometa Honeymoon</li>
+        <li data-src="ListaPP/VenusnoDance.mp3" data-img="Portadas/VenusnoDance.jpg">Venus no Dance</li>
+        <li data-src="ListaPP/miki-cupid.mp3" data-img="Portadas/miku-cupid.jpg">Cupid</li>
+        <li data-src="ListaPP/miki-Jazzy.mp3" data-img="Portadas/miki-jass.jpeg">Jazzy</li>
+        <li data-src="ListaPP/miki-Neat.mp3" data-img="Portadas/miki-neat.jpeg">Neat</li>
+               
+	<!-- Agrega más elementos <li> con atributo data-src para 
+         cada canción -->
+        </ul>
+
+
+    </div><!-- lista-->
+    
+
+    <div class="portadas">
+    
+       <nav class="busqueda">
+          <ul>
+             <li>Pp</li>
+	     <li>Rap</li>
+	     <li>Reggae</li>
+	  </ul>
+       </nav>
+
+       <img class="imagen" src="HipHop.jpg"></img>  
+     </div>
+
+</div>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <footer>
+
+    <img id="imagenAlbum" src="Portadas/default.png" alt="Imagen Album">
+    </img>
+
+
+
+    <audio id="audioPlayer" controls></audio>
+    <script src="reproductor.js"></script>
+    <!-- <script src="cambioImagen.js"></script> -->
+
+  </footer>
+
+</body>
+</html>
+
