@@ -5,6 +5,7 @@
   <title>Reproductor de Música</title>
   <link rel="stylesheet" type="text/css" href="estilos.css"> 
 </head>
+
 <body>
  
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -24,42 +25,79 @@
         <li data-src="ListaPP/miki-cupid.mp3" data-img="Portadas/miku-cupid.jpg">Cupid</li>
         <li data-src="ListaPP/miki-Jazzy.mp3" data-img="Portadas/miki-jass.jpeg">Jazzy</li>
         <li data-src="ListaPP/miki-Neat.mp3" data-img="Portadas/miki-neat.jpeg">Neat</li>
-               
+       
+
+	<li data-src="ListaPP/Loco.mp3" data-img="Portadas/miki-neat.jpeg">loco</li>
+        <li data-src="ListaPP/Nuncavemosnada.mp3" data-img="Portadas/miki-neat.jpeg">Nunca Vemos Nada</li>
+        <li data-src="ListaPP/Mejorviajarkellegar.mp3" data-img="Portadas/miki-neat.jpeg">Mejor Viajar ke llegar</li>
+        <li data-src="ListaPP/plasticlove.mp3" data-img="Portadas/miki-neat.jpeg">Plastic Love</li>
+        <li data-src="ListaPP/RapdeKirito.mp3" data-img="Portadas/miki-neat.jpeg">Rap Kirito</li>
+        <li data-src="ListaPP/Recetasecreta.mp3" data-img="Portadas/miki-neat.jpeg">Receta secreta</li>
+        <li data-src="ListaPP/Sr.Sikologo.mp3" data-img="Portadas/miki-neat.jpeg">Sr. Sikologo</li>
+        <li data-src="ListaPP/Suspiro.mp3" data-img="Portadas/miki-neat.jpeg">Suspiro</li>
+        <li data-src="ListaPP/ElCieloyelInfierno.mp3" data-img="Portadas/miki-neat.jpeg">El Cielo y El Infierno</li>
+        <li data-src="ListaPP/veces.mp3" data-img="Portadas/miki-neat.jpeg">Aveces - Los aldeanos</li>
+        <li data-src="ListaPP/Y.e.r.b.a.mp3" data-img="Portadas/miki-neat.jpeg">Yerba</li>
+        <li data-src="ListaPP/yuyuman.mp3" data-img="Portadas/miki-neat.jpeg">yuyuman style</li>
+        <li data-src="ListaPP/Barbiekills.mp3" data-img="Portadas/miki-neat.jpeg">Barbie Kills</li>
+        <li data-src="ListaPP/BocaFloja.mp3" data-img="Portadas/miki-neat.jpeg">Boca Floja</li>
+        <li data-src="ListaPP/CaeryLevantarse.mp3" data-img="Portadas/miki-neat.jpeg">Caer y Levantarse</li>
+        <li data-src="ListaPP/ElFracaso.mp3" data-img="Portadas/miki-neat.jpeg">El Fracaso</li>
+        <li data-src="ListaPP/EnvueltoEnHumo.mp3" data-img="Portadas/miki-neat.jpeg">Envuelto En Humo</li>
+        <li data-src="ListaPP/Elmitodelacaverna.mp3" data-img="Portadas/miki-neat.jpeg">El mito de la carverna</li>
+	<li data-src="ListaPP/ElPaísDeLasMaravillas.mp3" data-img="Portadas/miki-neat.jpeg">El pais de las maravillas</li>
+        <li data-src="ListaPP/GotaaGota.mp3" data-img="Portadas/miki-neat.jpeg">Gota a Gota</li>
+        <li data-src="ListaPP/INSOMNIO.mp3" data-img="Portadas/miki-neat.jpeg">insomnio</li>
+        <li data-src="ListaPP/Invencible.mp3" data-img="Portadas/miki-neat.jpeg">Invensible</li>
+        <li data-src="ListaPP/Latino.mp3" data-img="Portadas/miki-neat.jpeg">Latino</li>
+                            
 	<!-- Agrega más elementos <li> con atributo data-src para 
          cada canción -->
         </ul>
 
+        <img id="imagenAlbum" src="Portadas/default.png" alt="Imagen Album">
+        </img>
 
-    </div><!-- lista-->
+    </div> <!-- lista  -->
     
 
     <div class="portadas">
     
        <nav class="busqueda">
-          <ul>
-             <li>Pp</li>
-	     <li>Rap</li>
-	     <li>Reggae</li>
+          <ul class="menu">
+
+             <a href="#"><li>Pp</li></a>
+	     <a href="#"><li>Rap</li></a>
+	     <a href="#"><li>Reggae</li></a>
+
+	     <li class="dezplegable">
+	      <a href="#" class="botonDezplegable">Multimedia</a>
+                <div class="contenedorDezplegable">
+		   <a href="#">Anime</a>
+		   <a href="#">Peliculas</a>
+		   <a href="#">Videos</a>
+		</div>
+	     </li>
+
 	  </ul>
        </nav>
+             
+      <a href="#"><img class="imagen" src="HipHop.jpg"></img></a>
+      <a href="#"><img class="imagen" src="rap.avif"></img></a>
+      <a href="#"><img class="imagen" src="HipHop.jpg"></img></a>
+      <a href="#"><img class="imagen" src="HipHop.jpg"></img></a>
+      <a href="#"><img class="imagen" src="HipHop.jpg"></img></a>
+      <a href="#"><img class="imagen" src="HipHop.jpg"></img></a>
 
-       <img class="imagen" src="HipHop.jpg"></img>  
-     </div>
 
-</div>
+    </div> <!-- portadas -->
+
+</div>  <!-- cuerpo -->
 
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <footer>
-
-    <img id="imagenAlbum" src="Portadas/default.png" alt="Imagen Album">
-    </img>
-
-
-
     <audio id="audioPlayer" controls></audio>
     <script src="reproductor.js"></script>
-    <!-- <script src="cambioImagen.js"></script> -->
-
   </footer>
 
 </body>
