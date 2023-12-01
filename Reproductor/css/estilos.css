@@ -191,3 +191,34 @@ footer {
   height: 6%;
 }
 
+/*---------------------------  media querys  ------------------*/
+
+@media screen and (max-width: 376px){
+  
+   body{
+     min-height: 100vh;
+     display: flex;
+   }
+   
+   .cuerpo{
+     background: #234;
+   }
+/*-------------------------------------------------------------*/
+   .lista{
+     
+   }
+   .lista h2{
+     display: none;
+   }
+   .lista ul{
+     width: 375px;
+   }
+   .portadas{
+     display: none;
+   }
+   footer{
+     display: none;
+   }
+}
+
+

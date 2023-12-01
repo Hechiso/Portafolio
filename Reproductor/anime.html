@@ -3,21 +3,22 @@
 <head>
    <meta charset="UTF-8">
    <title>Animes</title>
-   <link rel="stylesheet" type="text/css" href="Anime.css">
+   <link rel="stylesheet" type="text/css" href="css/Anime.css">
    
 </head>
 
 <body>
 
-<!--  nav  -->    
-    <nav>
+<!-- ----------------------------------------------     nav    ----------------------------------------------------------->    
+
+     <nav>
        <ul class="menu">
 
           <li class="oculto">
 	       <a href="#" class="boton">Lista De Animes</a>
 	          <div class="ContenedorDesplegable">
 		       <a href="#">Hajime No Hippo</a>
-		       <a href="#">Tate No Yuusha</a>
+		       <a href="Tate.html">Tate No Yuusha</a>
 		   </div>
 	  </li>
 
@@ -25,32 +26,38 @@
        </ul>
     </nav>
 
-<!--  seccion de pasarela principal--> 	
+<!-- -----------------------------------    seccion de pasarela principal   ------------------------------------------------> 	
     <section>
-	<div class="contenedor">    
+	
+	 <div class="contenedor">    
 	  
-	  <img src="Hajime-Portada.jpeg"></img>
-	  <img src="tate.jpg"></img>
+	  <img src="PortadasAnime/Hajime-Portada.jpeg"></img>
+	  <img src="PortadasAnime/tate.jpg"></img>
 
 	     <div class="Superpuestos">
               <!--  <p>Hajime no hippo</p>
 	       <button>Ver Ahora</button> -->
 	     </div>
-        </div>
-        <script src="carrusel.js"></script>
+       
+	 </div>
+         
+	 <script src="js/carrusel.js"></script>
+
     </section>
 
-<!--  seccion de mosaicos de animes  -->
+<!-- ----------------------------------    seccion de mosaicos de animes   -------------------------------------------------->
     <section>
-	<h2>Mosaico Animes</h2>
 
-	<img class="mosaico" src="Hajime.jpg"></img>
-        <img class="mosaico" src="tateno.jpg"></img>
-        <img class="mosaico" src="Hajime.jpg"></img>
-        <img class="mosaico" src="Hajime.jpg"></img>
+	    <h2>Mosaico Animes</h2>
+
+            <a href="Hajime.html"><img class="mosaico" src="PortadasAnime/Hajime.jpg"></img></a>
+            <a href="Tate.html"><img class="mosaico" src="PortadasAnime/tateno.jpg"></img></a>
             
-	<p class="NombreImg">Hajime no hippo</p>
-        
+	    <img class="mosaico" src="PortadasAnime/Hajime.jpg"></img>
+            <img class="mosaico" src="PortadasAnime/Hajime.jpg"></img>
+            
+	    <p class="NombreImg">Hajime no hippo</p>
+            <p class="NombreImagen">Tate No Yuusha</p>        
     
     </section>    
 

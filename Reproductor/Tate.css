@@ -1,0 +1,93 @@
+/*   estilos de reproductor de videos animes   */
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #345;
+}
+
+.Data{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+img{ 
+  width: 280px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+
+.datosAnime{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+h2{
+  margin-left: 50px;
+}
+
+article{
+  margin-left: 50px;
+}
+
+ul{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+/*------------------------  videos  ---------------------------*/
+
+.capitulos{
+  margin-top: 50px;
+  display: flex;
+  
+  justify-content: left;
+
+}
+
+video{
+  width: 300px;
+  border-radius: 10px;
+}
+
+.capitulos img{
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+
+#miImagen, #mianime {
+  cursor: pointer; /* Cambiamos el cursor para indicar que son clickeables */
+}
+
+/*-------------------------  Superpuesto  --------------------*/
+
+
+.Superpuesto{
+  position: absolute;
+  top: 600px;
+  color: #fff;
+  margin-left: 60px;
+}
+
+.Superpuesto .Capitulo1{
+  background: #234;
+  border-radius: 10px;
+}
+
+.Superpuesto .Capitulo2{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 350px;
+}
+
