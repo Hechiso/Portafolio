@@ -1,0 +1,40 @@
+body{
+/*	background-color: #666;*/
+	text-align: center;
+  margin: 0;
+  padding: 0;
+     background-image: url("/home/nigromante/Documentos/web/src/wp.jpg");
+      background-size: cover;
+      background-position: center;
+      /* Puedes ajustar otros estilos de fondo según tus necesidades */
+
+
+}
+
+h2{
+  background: #234;
+  color: #aaa;
+  margin: 0;
+}
+
+p{
+  color: #aaa;
+  margin: 10%;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+.contenedor{
+	background-color: #444;
+	border-radius: 20px;
+	width: 20%;
+
+	margin-bottom: 50%;
+	margin-left: 40%;
+	margin-top: 10%;
+}
