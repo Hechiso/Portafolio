@@ -48,9 +48,8 @@ ul{
 
 .capitulos{
   margin-top: 50px;
-  display: flex;
-  
-  justify-content: left;
+  display: flex; 
+  flex-wrap: wrap;
 
 }
 
@@ -62,7 +61,8 @@ video{
 .capitulos img{
   width: 300px;
   height: 200px;
-  margin-left: 50px;
+  margin-left: 30px;
+  margin-top: 50px; 
 }
 
 
@@ -78,16 +78,193 @@ video{
   top: 600px;
   color: #fff;
   margin-left: 60px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Superpuesto .Capitulo1{
   background: #234;
   border-radius: 10px;
+  margin-top: 60px;
 }
 
 .Superpuesto .Capitulo2{
   background: #234;
   border-radius: 10px;
   margin-left: 350px;
+  margin-top: 60px;
+}
+
+.Superpuesto .Capitulo3{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 60px;
+}
+
+.Superpuesto .Capitulo4{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 1050px;
+  margin-top: 60px;
+}
+
+.Superpuesto .Capitulo5{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 320px;
+}
+
+.Superpuesto .Capitulo6{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 320px;
+}
+
+.Superpuesto .Capitulo7{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 320px;
+}
+
+.Superpuesto .Capitulo8{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 1050px;
+  margin-top: 320px;
+
+}
+
+
+.Superpuesto .Capitulo9{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 570px;
+}
+
+.Superpuesto .Capitulo10{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 570px;
+}
+
+.Superpuesto .Capitulo11{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 570px;
+}
+
+.Superpuesto .Capitulo12{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 1050px;
+  margin-top: 570px;
+
+}
+
+
+
+.Superpuesto .Capitulo13{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 820px;
+}
+
+.Superpuesto .Capitulo14{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 820px;
+}
+
+.Superpuesto .Capitulo15{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 820px;
+}
+
+.Superpuesto .Capitulo16{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 1050px;
+  margin-top: 820px;
+
+}
+
+
+
+.Superpuesto .Capitulo17{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 1070px;
+}
+
+.Superpuesto .Capitulo18{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 1070px;
+}
+
+.Superpuesto .Capitulo19{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 1070px;
+}
+
+.Superpuesto .Capitulo20{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 1050px;
+  margin-top: 1070px;
+
+}
+
+
+.Superpuesto .Capitulo21{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 1320px;
+}
+
+.Superpuesto .Capitulo22{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 1320px;
+}
+
+.Superpuesto .Capitulo23{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 700px;
+  margin-top: 1320px;
+}
+
+.Superpuesto .Capitulo24{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 1050px;
+  margin-top: 1320px;
+
+}
+
+.Superpuesto .Capitulo25{
+  background: #234;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 1570px;
+
 }
 

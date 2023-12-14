@@ -8,7 +8,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #889;
+  background: #456;
 }
 
 /*-----------------------  nav  ----------------------------*/
@@ -18,68 +18,11 @@ nav{
   height: 50px;
 }
 
-
-
-nav ul{
-  display: flex;
-  margin: 10px;
-  padding-left: 0;  
-}
-
-nav li{
-  list-style: none;
-  margin-left: 30px;
+nav p{
   color: #808b96;
+  margin-left: 20px;
 }
 
-nav li:hover{
-  background:   #808b96;
-  color:  #222;
-  border-radius: 15px;
-  padding: 3px;
-}
-/*------------------------ menu desplegable -------------------*/
-
-.oculto{
-  position: relative;
-  display: inline-block;
-}
-
-.ContenedorDesplegable{
-  display: none;
-  position: absolute;
-  background-color: #555;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
-  z-index: 1;
- /* right: 0;
-  left: auto;*/
-}
-
-.ContenedorDesplegable a{
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  background: #555;
-}
-
-.ContenedorDesplegable a:hover{
-  background-color: #f1f1f1;
- 
-}
-
-.oculto:hover .ContenedorDesplegable{
-  display: block;
-}
-
-ul.menu li.oculto{
- 
-}
-
-ul.menu a{
-  text-decoration: none;
-}
 /*------------------------- section ---------------------------*/
 
 section img{
@@ -110,38 +53,9 @@ section img{
   opacity: 1;
 }
 
-.Superpuestos{
-    position: absolute;
-    top: 50%; /* Ajusta la posición vertical del elemento */
-    left: 15%; /* Ajusta la posición horizontal del elemento */
-    transform: translate(-100px, -50px);
-    text-align: center; /* Centra el contenido */
-    background: rgba(255, 255, 255, 0.0); /* Fondo semi-transparente para el contenido */
-    padding: 20px;
-    border-radius: 5px;
-    font-Size: 80px;
-    color: #fff;
+.Celular{
+  display: none;
 }
-
-.Superpuestos button{
-    position: absolute;
-    top: 75%;
-    left: 10%;
-    background: #234;
-    border-style: none;
-    color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-Size: 30px;
-}
-
-.Superpuestos button:hover{
-   background: #aaa;
-   color: #234;
-}
-
 
 /*---------------------- section mosaico ----------------------*/
 
@@ -149,6 +63,7 @@ h2{
   margin-top: 50px;	
   margin-left: 100px;
   margin-bottom: 0;
+  color: #123;
 }
 
 .mosaico{
@@ -160,10 +75,63 @@ h2{
 .NombreImg{
   margin-left: 11%;
   display: inline;
+  color: #123;
 }
 
 .NombreImagen{
   margin-left: 15%;
   display: inline;
+  color: #123;
 }
+
+@media screen and (max-width: 981px){
+
+   section{
+      display: none;
+   }
+   
+   nav{
+      display: none;
+   }
+
+   .Celular{
+      display: block;
+      overflow-y: auto;
+   }
+
+   h2{
+      font-size: 34px;
+      background: #123;
+      color: #aaa;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+   }
+   
+   .animesMosaico{
+      display: flex;
+      flex-wrap: wrap; 
+   }
+
+   .animesMosaico img{
+      width: cal(16.33% - 19px);
+      border-radius: 5px;
+      margin-left: 80px;  
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   }
+   
+   .animesMosaico a{
+      margin-top: 10%;
+      text-decoration: none;
+      color: #aaa;
+   }
+
+   .animesMosaico p{
+     margin-left: 70px;
+     font-size: 35px;
+     margin-top: 0;
+   }
+
+}
+
 
