@@ -4,7 +4,7 @@ body{
    min-height: 100vh;
    margin: 0;
    padding: 0;
-   
+
 }
 
 nav{
@@ -28,7 +28,7 @@ ul{
 
 li{
    display: block;
-   margin: 10px;
+   margin: 1%;
    list-style: none;
 }
 
@@ -43,37 +43,37 @@ a{
 
 
 
+
 section{
    min-height: 100vh;	
    background: #345;
 }
 
 
+.mosaico-mangas{
 
-img{
-  border-radius: 10px;
- 
-}
-
-
-.mosaico-capitulos{
-  margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
-  background: #345;
-  margin: 0px;
 }
 
 
-.mosaico-capitulos img{
-  width: 250px;
-  height: 350px;
-  margin-left: 5px;
-  
+.mosaico-mangas img{
+
+   height: 300px;
+   border-radius: 15px;
+   margin-top: 10px; 
 }
 
+.mosaico-mangas h3{
+   color: #aaa;
+   width: 300px;
+   padding: 0;
+   display: flex;
+   
+}
 
-.mosaico-capitulos a{
-  margin: 30px;
+.mosaico-mangas article{
+  color: #000;
+  width: 300px;
+  margin-top: 10px;
   
 }
